@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MultithreadedClient",
+            "request": "launch",
+            "mainClass": "Client.MultithreadedClient",
+            "projectName": "Comp416-Project1_f936a554"
+        },
+        {
+            "type": "java",
+            "name": "RESTfulAPI",
+            "request": "launch",
+            "mainClass": "CoinGecko.RESTfulAPI",
+            "projectName": "Comp416-Project1_f936a554"
+        },
+        {
+            "type": "java",
+            "name": "MultithreadedServer",
+            "request": "launch",
+            "mainClass": "MultithreadedServer.MultithreadedServer",
+            "projectName": "Comp416-Project1_f936a554"
+        }
+    ]
+}
